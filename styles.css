@@ -1,0 +1,41 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.app {
+    /* width: 70%; */
+    display: flex;
+    flex-direction: column;
+    /* text-align: center; */
+}
+
+.navbar {
+    position: fixed;
+    width: 100%;
+    height: 50px;
+}
+
+.navi {
+    background-color: orangered;
+}
+
+li > a{
+    font-size: 1em;
+    color: black;
+}
+
+.list {
+    background: #e3d5ca;
+}
+
+li {
+    font-weight: bolder;
+    /* height: 90%; */
+    margin: 10px 5px;
+}
+
+#liP {
+    font-weight: lighter;
+    font-size: smaller;
+}
